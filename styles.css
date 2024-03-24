@@ -1,13 +1,31 @@
 * {
+  color: white;
   font-family: sans-serif;
 }
 
+body {
+  background-color: #0d2a30;
+}
+
 h1 {
+  background-image: url(logo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 0px;
+  height: 480px;
+  margin: auto;
+  text-align: center;
+  width: 480px;
+}
+
+main {
   text-align: center;
 }
 
 a {
-  display: block;
-  padding: 1em;
+  display: inline-block;
+  padding: 2rem;
+  font-size: 4rem;
   text-align: center;
 }
