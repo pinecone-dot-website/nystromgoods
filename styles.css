@@ -8,13 +8,13 @@ body {
 }
 
 h1 {
-  background-image: url(logo.jpg);
+  background-image: url(logo.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 0px;
-  height: 480px;
-  margin: auto;
+  height: 194px;
+  margin: 4rem auto;
   text-align: center;
   width: 480px;
 }
@@ -23,9 +23,23 @@ main {
   text-align: center;
 }
 
+div.container {
+  margin: 2rem auto;
+}
+
 a {
   display: inline-block;
   padding: 2rem;
   font-size: 4rem;
   text-align: center;
+}
+
+address {
+  display: inline-block;
+  margin: auto;
+  text-align: left;
+}
+
+address div {
+  margin: 0.5rem;
 }
